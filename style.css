@@ -283,6 +283,7 @@ h5{
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 10px;
+  max-width: 70%;
 }
 
 #output h3{
