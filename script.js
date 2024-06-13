@@ -569,8 +569,9 @@ function filterInput(){
 }
 
 function filterTeknik(){
-  document.getElementById("F").style.display = "block";
+  document.getElementById("A").style.display = "block";
   document.getElementById("B").style.display = "block";
+  document.getElementById("E").style.display = "block";
   document.getElementById("H").style.display = "block";
 }
 
