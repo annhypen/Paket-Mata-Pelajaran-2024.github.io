@@ -5,12 +5,16 @@ let pilihanMapel = document.querySelector("#pilihanMapel");
 let pilihanProdi = document.querySelector("#pilihanProdi");
 let saranSemua = document.querySelector("#saranSemua")
 let mapelTeknik = document.querySelector("#mapelTeknik")
-let buttons = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+let buttons = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 let rekomendasi = document.querySelector("#recs");
 let recsContainer = document.querySelector("#recsContainer")
 let bold = document.getElementsByClassName("bold");
 
 const paket = [
+    {
+        name: "KKO",
+        mapel: ['Matematika Tingkat Lanjut', 'Informatika', 'Ekonomi', 'Sosiologi']
+    },
   {
       name: "A",
       mapel: ['Biologi', 'Kimia', 'Matematika Tingkat Lanjut', 'Fisika']
@@ -37,7 +41,7 @@ const paket = [
   },
   {
       name: 'G',
-      mapel: ['Ekonomi', 'Bahasa Inggris Tingkat Lanjut', 'Matematika Tingkat Lanjut', 'Informatika'],
+      mapel: ['Ekonomi', 'Bahasa Inggris Tingkat Lanjut', 'Sosiologi', 'Informatika'],
   },
   {
       name: 'H',
@@ -45,7 +49,7 @@ const paket = [
   },
   {
       name: 'I',
-      mapel: ["Ekonomi", 'Geografi', 'Sosiologi', 'Bahasa Indonesia Tingkat Lanjut']
+      mapel: ["Ekonomi", 'Geografi', 'Sosiologi', 'Bahasa Jepang']
   },
   {
       name: "J",
