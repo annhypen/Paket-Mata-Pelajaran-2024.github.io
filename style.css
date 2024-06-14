@@ -25,7 +25,7 @@ body{
     flex-direction: column;
 }
 
-#logohal1{
+#email-logo1{
     position: absolute;
     bottom: 0px;
 }
@@ -37,15 +37,60 @@ body{
     margin-left:auto;
 }
 
-#info{
-    width: 60%;
+#info-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#button-container{
+    width: 100%;
     text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#filter-button, #form{
+    width: 40%;
+}
+
+#form{
+    height: 30px;
+    width: 100%;
+    border-radius: 16px;
+    border: 1.5px solid rgb(168, 171, 192);
+    padding-left: 12px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: auto;
     font-size: small;
+    text-align: center;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 2px 8px;
     margin-bottom: 12px;
     color: rgb(21, 39, 99);
+}
+
+.info p{
+    padding: 8px;
+}
+
+#filter-info{
+    margin-right: 2%;
+}
+#pilih-info{
+    margin-left: 2%;
+}
+#filter-button{
+    margin-right: 2%;
+}
+#pilih-button{
+    width: 40%;
+    margin-left: 2%;
 }
 
 .judul{
@@ -56,9 +101,14 @@ body{
     justify-content: center;
 }
 
-#logo2{
+#email-logo2{
     width: 15%;
-    margin: 4px;
+    padding-left: 6px;
+}
+
+#logo2{
+    width: 100%;
+    padding-top: 6px;
 }
 
 #disclaimer{
@@ -95,16 +145,16 @@ body{
     background-color: rgb(27, 32, 60);
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: justify;
 }
 
 .header .links{
     text-align: right;
-    flex-direction: row;
-    flex: 1 1 auto;
-    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    margin-right: 2%;
 }
 
 .opsi{
@@ -115,7 +165,6 @@ body{
     color:rgb(253, 254, 253);
   font-size: 10px;
   font-family: Tahoma, sans-serif;
-  margin-right:4px;
   padding:4px;
 }
 
@@ -148,7 +197,7 @@ body{
   color: rgb(21, 39, 99);
 }
 
-input[type=button], input[type=text]{
+input[type=button], input[type=text], #form{
     background-color: rgb(168, 171, 192, 0.6);
     color: rgb(73, 73, 74);
 }
@@ -160,6 +209,7 @@ input{
     border: 1.5px solid rgb(168, 171, 192);
     padding-left: 12px;
 }
+
 
 .input{
     margin-bottom: 16px;
@@ -320,6 +370,11 @@ h4{
     display: none;
 }
 
+#KKO{
+    background-color: rgba(134, 100, 152, 0.7);
+    border: 1.5px solid rgb(134, 100, 152);
+}
+
 #A{
     background-color:rgb(138, 116, 150, 0.7);
     border: 1.5px solid rgb(138, 116, 150);
@@ -374,4 +429,3 @@ h4{
     background-color: rgb(108, 116, 148, 0.7);
     border: 1.5px solid rgb(108, 116, 148);
 }
-
